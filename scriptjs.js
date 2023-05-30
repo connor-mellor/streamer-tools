@@ -4,11 +4,7 @@ const tileTemplate = document.getElementById('tile');
 const widgets = [
     {
         name: "Tags Converter",
-        href: "/widgets/TagsConverter/index.html"
-    },
-    {
-        name: "Other stuff",
-        href: "/test"
+        href: "./widgets/TagsConverter/index.html"
     },
 ];
 
