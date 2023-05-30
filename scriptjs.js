@@ -11,7 +11,7 @@ const widgets = [
 widgets.forEach(widget => {
     const tile = tileTemplate.cloneNode(true)
         .content.querySelector('.tile');
-    const nameElement = tile.querySelector('a > p');
+    const nameElement = tile.querySelector('a  p');
     const hrefElement = tile.querySelector('a')
     
     nameElement.innerText = widget.name;    
