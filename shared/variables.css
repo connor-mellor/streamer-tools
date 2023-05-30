@@ -1,0 +1,61 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+/* variables */
+:root {
+    /* sizing */
+    --small: 5px;
+
+    /* background colours */
+    --bg-black: #1d1e22;
+    --bg-white: #f0f0f0;
+
+    /* font colours */
+    --font-black: #000;
+    --font-white: #fff;
+
+    /* palette */
+    --pgc-primary-blue: #1081f8;
+    --pgc-primary-blue-50: #1081f850;
+    --pgc-secondary-blue: #30a8fd;
+    --pgc-secondary-blue-50: #30a8fd50;
+}
+
+/* default styling */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  font-family: 'Karla', sans-serif;
+  padding: calc(var(--small) * 2);
+  background: linear-gradient(to bottom, var(--pgc-primary-blue) 40%, transparent 100%);
+}
+
+.image-container {
+  height: auto;
+  width: 55px;
+  aspect-ratio: 1/1;
+  margin-right: var(--small)
+}
+
+.image-container img {
+  height: auto;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
